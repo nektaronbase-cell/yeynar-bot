@@ -1,0 +1,24 @@
+{
+  "name": "yeynar-bot",
+  "version": "1.0.0",
+  "description": "Neynar for the common man - democratizing Farcaster data access",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "farcaster",
+    "neynar",
+    "bot",
+    "yeynar"
+  ],
+  "author": "Yeynar",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2"
+  }
+}
