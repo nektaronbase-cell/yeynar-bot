@@ -1,4 +1,10 @@
-node_modules/
+# Ignore local environment files and typical node artifacts
 .env
-*.log
+.env.local
+.env.*.local
+node_modules/
+dist/
+build/
 .DS_Store
+.idea/
+.vscode/
